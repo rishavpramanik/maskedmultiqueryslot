@@ -1,5 +1,5 @@
-# 
-"**Transformer-based deep reverse attention network for multi-sensory human activity recognition**" - published in Engineering Applications of Artificial Intelligence, Elsevier.
+# Masked Multi-Query Slot Attention
+"**Masked Multi-Query Slot Attention for Unsupervised Object Discovery**" - accepted for presentation in [2024 International Joint Conference on Neural Networks](https://2024.ieeewcci.org/).
 
 Access the paper: [Coming Soon]()
 ```
