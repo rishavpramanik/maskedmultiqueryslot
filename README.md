@@ -23,4 +23,4 @@ PASCAL VOC 2012 [Click here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/inde
 
 
 ## Acknowledgements
-We greatly thank the authors of https://github.com/rishavpramanik/object_unsup/tree/main and https://github.com/imbue-ai/slot_attention/tree/master for their code which had helped us in our work
+We greatly thank the authors of https://github.com/amazon-science/object-centric-learning-framework/tree/main and https://github.com/imbue-ai/slot_attention/tree/master for their code which had helped us in our work
