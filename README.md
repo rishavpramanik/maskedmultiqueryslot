@@ -17,7 +17,13 @@ YEAR=2024,
 
 ## Datasets Used:
 PASCAL VOC 2012 [Click here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
+## Requirements
 
+- Python >= 3.8
+- PyTorch >= 1.7.1
+- Pytorch Lightning >= 1.1.4
+- CUDA enabled computing device
+  
 ## Instructions to run the code:
  Coming Soon
 
