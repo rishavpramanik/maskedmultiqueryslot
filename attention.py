@@ -17,7 +17,7 @@ class SlotAttention(nn.Module):
         self.epsilon = epsilon
 
         self.norm_inputs = nn.LayerNorm(self.in_features)
-        # I guess this is layer norm across each slot? should look into this
+        
         self.norm_slots = nn.LayerNorm(self.slot_size)
         self.norm_mlp = nn.LayerNorm(self.slot_size)
 
