@@ -25,7 +25,7 @@ tar -xf yourdirectory/VOCtrainval_11-May-2012.tar -C $SLURM_TMPDIR/yourdirectory
 ```
 torchrun --nproc_per_node=4 --nnodes=1 scripts/train2.py
 ```
-
+Edit the parameters before you start in params.py and other required places before you start
 ## Citation
 
 ```
@@ -40,7 +40,6 @@ YEAR=2024,
 }
 ```
 
-Edit the parameters before you start in params.py
 
 ## Acknowledgements
 We greatly thank the authors of https://github.com/amazon-science/object-centric-learning-framework/tree/main and https://github.com/imbue-ai/slot_attention/tree/master for their code which had helped us in our work
