@@ -2,18 +2,6 @@
 "**Masked Multi-Query Slot Attention for Unsupervised Object Discovery**" - accepted for presentation in [2024 International Joint Conference on Neural Networks](https://2024.ieeewcci.org/).
 
 Access the paper: [Arxiv](https://arxiv.org/abs/2404.19654)
-```
-@INPROCEEDINGS{pramanik2024masked,
-AUTHOR="Rishav Pramanik and Jos{\'e}-Fabian {Villa-V{\'a}squez} and Marco Pedersoli",
-TITLE="Masked {Multi-Query} Slot Attention for Unsupervised Object Discovery",
-BOOKTITLE="2024 International Joint Conference on Neural Networks (IJCNN) (IJCNN 2024)",
-ADDRESS="Yokohama, Japan",
-DAYS=28,
-MONTH=jun,
-YEAR=2024,
-}
-```
-
 
 ## Datasets Used:
 PASCAL VOC 2012 [Click here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
@@ -36,6 +24,20 @@ tar -xf yourdirectory/VOCtrainval_11-May-2012.tar -C $SLURM_TMPDIR/yourdirectory
 3. The train2 file is sufficent to run the code
 ```
 torchrun --nproc_per_node=4 --nnodes=1 scripts/train2.py
+```
+
+## Citation
+
+```
+@INPROCEEDINGS{pramanik2024masked,
+AUTHOR="Rishav Pramanik and Jos{\'e}-Fabian {Villa-V{\'a}squez} and Marco Pedersoli",
+TITLE="Masked {Multi-Query} Slot Attention for Unsupervised Object Discovery",
+BOOKTITLE="2024 International Joint Conference on Neural Networks (IJCNN) (IJCNN 2024)",
+ADDRESS="Yokohama, Japan",
+DAYS=28,
+MONTH=jun,
+YEAR=2024,
+}
 ```
 
 Edit the parameters before you start in params.py
