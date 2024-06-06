@@ -1,5 +1,5 @@
 # Masked Multi-Query Slot Attention
-"**Masked Multi-Query Slot Attention for Unsupervised Object Discovery**" - accepted for presentation in [2024 International Joint Conference on Neural Networks](https://2024.ieeewcci.org/).
+"**Masked Multi-Query Slot Attention for Unsupervised Object Discovery**" - accepted for oral presentation in [2024 International Joint Conference on Neural Networks](https://2024.ieeewcci.org/) Yokohama, Japan.
 
 Access the paper: [Arxiv](https://arxiv.org/abs/2404.19654)
 
@@ -11,6 +11,7 @@ PASCAL VOC 2012 [Click here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/inde
 - PyTorch >= 1.7.1
 - Pytorch Lightning >= 1.1.4
 - CUDA enabled computing device
+- For more requirements please consult ```requirements.txt```
   
 ## Instructions to run the code:
 1. Download the repository and install the required packages:
