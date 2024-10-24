@@ -1,7 +1,7 @@
 # Masked Multi-Query Slot Attention
 "**Masked Multi-Query Slot Attention for Unsupervised Object Discovery**" - accepted for oral presentation in [2024 International Joint Conference on Neural Networks](https://2024.ieeewcci.org/) Yokohama, Japan.
 
-Access the paper: [Arxiv](https://arxiv.org/abs/2404.19654)
+Access the paper: [Arxiv](https://arxiv.org/abs/2404.19654) [IEEE Xplore](https://ieeexplore.ieee.org/document/10651147)
 
 ## Datasets Used:
 PASCAL VOC 2012 [Click here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
