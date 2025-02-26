@@ -58,7 +58,6 @@ class _VOCBase(VisionDataset):
             file_names_val=[x.strip() for x in f.readlines()]
 
         image_dir = os.path.join(voc_root, "JPEGImages")
-        self.snack = image_dir
         if image_set in ('train'):
             limages = [os.path.join(image_dir, x)
                            for x in os.listdir(image_dir)]
