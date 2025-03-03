@@ -24,7 +24,7 @@ tar -xf yourdirectory/VOCtrainval_11-May-2012.tar -C $SLURM_TMPDIR/yourdirectory
 ```
 3. The train2 file is sufficent to run the code
 ```
-torchrun --nproc_per_node=4 --nnodes=1 scripts/train2.py
+torchrun --nproc_per_node=4 --nnodes=1 train2.py
 ```
 Edit the parameters before you start in params.py and other required places before you start
 ## Citation
