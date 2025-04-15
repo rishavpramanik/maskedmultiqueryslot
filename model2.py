@@ -73,7 +73,7 @@ class PatchModel(nn.Module):
         encoder_out = torch.clone(dino['k'])
         if self.masking and self.training:
             if self.random_masking:
-                args=[random.sample(range(encoder_out.shape[1]),k=int(len(encoder_out[0])*(1-self.masking))) for _ in range(batch_size)]
+                args=torch.tensor([random.sample(range(encoder_out.shape[1]),k=int(len(encoder_out[0])*(1-self.masking))) for _ in range(batch_size)],device=encoder_out.device)
                 mask = torch.zeros_like(encoder_out,device=encoder_out.device)
                 batch_indices = torch.arange(encoder_out.shape[0]).unsqueeze(1).unsqueeze(2)
                 encoder_out[batch_indices, args.unsqueeze(2)] = mask[batch_indices, args.unsqueeze(2)]
